@@ -1,0 +1,31 @@
+<div class="w3-display-container w3-wide">
+		<img src="http://www.designbolts.com/wp-content/uploads/2014/03/Blue-Blur-Background1.jpg" style="width:100%;height:100%;" class="w3-image">
+		  <div class="w3-display-topmiddle w3-margin-top">
+			
+				<?php 
+				echo $country;
+				echo $logo; 
+				echo "<center><h2>".$desc."</h1></center>";
+				?>
+				
+		  </div>
+	
+	
+	<div class="w3-display-middle w3-margin-top w3-padding-top">
+		<div class="w3-animate-left w3-margin-top"><br><br><br>
+<h1 class="w3-xlarge">
+
+			<?php echo $temperature; ?>
+			<?php echo $clouds; ?>
+			<?php echo $humidity; ?>
+			<?php echo $$windspeed; ?>
+			<?php echo $pressure; ?>
+			<?php echo $$visibility; ?>
+			<?php echo $sunrise; ?>
+			<?php echo $sunset; ?>
+			</h2>
+		</div>
+		
+	</div>
+	
+	</div>
