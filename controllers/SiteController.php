@@ -122,7 +122,6 @@ class SiteController extends Controller
                 
                 $string = "https://www.metaweather.com/api/location/".json_encode($get_data[0]['woeid'])."/";
                 $data = json_decode(file_get_contents($string),true);
-                $icon = $data['consolidated_weather'][$i]['weather_state_abbr'];
                 $country =  "<h4 class='w3-xxxlarge w3-animate-zoom'><b>".$data['title']."</h4></b>";
                 $get_time = $data['time'];
                 $time = date('h:i A', strtotime($get_time));
